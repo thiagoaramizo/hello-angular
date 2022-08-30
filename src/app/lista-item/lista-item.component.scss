@@ -1,0 +1,19 @@
+.listaDeItens {
+
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;
+    width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border-radius: var(--radius);
+
+    &__titulo {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: bold;
+        color: var(--primary)
+    }
+}

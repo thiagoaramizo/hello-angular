@@ -1,0 +1,13 @@
+<div class="listaDeItens">
+    <h1 class="listaDeItens__titulo">Itens</h1>
+</div>
+
+<div *ngIf="itens?.length > 0; else listaVazia">
+    <div *ngFor="let item of itens">
+        <app-item [item]="item"></app-item>
+    </div>
+</div>
+
+<ng-template #listaVazia>
+    <p>Nenhum item cadastrado</p>
+</ng-template>

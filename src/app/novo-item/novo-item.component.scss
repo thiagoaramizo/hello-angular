@@ -1,0 +1,49 @@
+.form {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border-radius: var(--radius);
+
+    &__titulo {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        color: var(--primary)
+    }
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    
+    label {
+        display: block;
+        padding: 10px 0;
+        color: var(--primary)
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid var(--primary);
+        border-radius: var(--radius);
+    }
+
+    button {
+        width: 200px;
+        padding: 10px;
+        border: 0;
+        background-color: var(--primary);
+        color: white;
+        margin: 20px 0;
+        border-radius: var(--radius);
+    }
+}

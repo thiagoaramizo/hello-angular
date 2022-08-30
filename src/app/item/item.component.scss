@@ -1,0 +1,25 @@
+.item {
+
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px;
+    width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border-radius: var(--radius);
+
+    &__numero {
+        
+    }
+    
+    &__nome {
+
+    }
+
+    &__data {
+        
+    }
+}
