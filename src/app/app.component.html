@@ -1,4 +1,9 @@
-<app-home></app-home>
-<app-novo-item></app-novo-item>
-<app-lista-item></app-lista-item>
-<router-outlet></router-outlet>
+<header>
+    <app-home></app-home>
+    <button routerLink="lista">Lista</button>
+    <button routerLink="novo-item" routerLinkActive="ativo">Novo item</button>
+</header>
+<main>
+   <router-outlet></router-outlet>
+ 
+</main>
